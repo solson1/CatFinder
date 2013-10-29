@@ -1,0 +1,208 @@
+TCatFinder2
+v7
+r0
+t404745920.094521
+cCheck dependencies
+cProcessInfoPlistFile /Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app/Contents/Info.plist CatFinder2-Info.plist
+cCopyStringsFile /Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/cscrew/Desktop/CatFinder2/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/5p/6dsmhpvx1z1gdtgnf1zxrb0h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CatFinder2_Prefix-eecthixofenztdcbsvyhdzinlgqf/CatFinder2_Prefix.pch.gch CatFinder2_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CatFinder2.build/Debug/CatFinder2.build/Objects-normal/x86_64/main.o /Users/cscrew/Desktop/CatFinder2/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CatFinder2.build/Debug/CatFinder2.build/Objects-normal/x86_64/CatFinder2AppDelegate.o /Users/cscrew/Desktop/CatFinder2/CatFinder2AppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app/Contents/MacOS/CatFinder2 normal x86_64
+cTouch /Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BAC72CA00000000000000EE
+t1269592778
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c0000000050476CAA0000000000006730
+t1346858154
+s26416
+
+N/Users/cscrew/Desktop/CatFinder2/CatFinder2AppDelegate.h
+c00000000526FB6F6000000000000013F
+t1383053046
+s319
+i<Cocoa/Cocoa.h>
+
+N/Users/cscrew/Desktop/CatFinder2/CatFinder2AppDelegate.m
+c00000000526FB6F60000000000000177
+t1383053046
+s375
+i"CatFinder2AppDelegate.h"
+
+N/Users/cscrew/Desktop/CatFinder2/CatFinder2_Prefix.pch
+c00000000526FB6F60000000000000097
+t1383053046
+s151
+i<Cocoa/Cocoa.h>
+
+N/Users/cscrew/Desktop/CatFinder2/English.lproj/InfoPlist.strings
+c00000000526FB6F6000000000000002D
+t1383053046
+s45
+
+N/Users/cscrew/Desktop/CatFinder2/English.lproj/MainMenu.xib
+c00000000526FB6F6000000000002BB8C
+t1383053046
+s179084
+
+N/Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/Objects-normal/x86_64/CatFinder2.LinkFileList
+c00000000526FB73C00000000000000E9
+t1383053116
+s233
+
+N/Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/Objects-normal/x86_64/CatFinder2AppDelegate.o
+t1383053119
+s21176
+
+N/Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/Objects-normal/x86_64/main.o
+t1383053119
+s4984
+
+N/Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app
+t1383053120
+s102
+
+N/Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app/Contents/Info.plist
+t1383053116
+s1292
+
+N/Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app/Contents/MacOS/CatFinder2
+t1383053120
+s14544
+
+N/Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app/Contents/PkgInfo
+t1383053116
+s8
+
+N/Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1383053116
+s92
+
+N/Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app/Contents/Resources/English.lproj/MainMenu.nib
+t1383053117
+s28061
+
+N/Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app/Contents/Resources/storyboard.nib
+t2
+s0
+
+N/Users/cscrew/Desktop/CatFinder2/main.m
+c00000000526FB6F600000000000000FB
+t1383053046
+s251
+i<Cocoa/Cocoa.h>
+
+N/Users/cscrew/Desktop/CatFinder2/storyboard.xib
+c00000000526FBBDB0000000000001524
+t1383054299
+s5412
+
+N/var/folders/5p/6dsmhpvx1z1gdtgnf1zxrb0h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CatFinder2_Prefix-eecthixofenztdcbsvyhdzinlgqf/CatFinder2_Prefix.pch.gch
+t1383053119
+s54306576
+
+NCatFinder2-Info.plist
+c00000000526FB6F600000000000003EA
+t1383053046
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies404745916#404745916#0(0"0(0#1#0"17234454272#0"0#
+
+CCompileC build/CatFinder2.build/Debug/CatFinder2.build/Objects-normal/x86_64/CatFinder2AppDelegate.o /Users/cscrew/Desktop/CatFinder2/CatFinder2AppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s404745919.390517
+e404745919.614693
+r1
+xCompileC
+xbuild/CatFinder2.build/Debug/CatFinder2.build/Objects-normal/x86_64/CatFinder2AppDelegate.o
+x/Users/cscrew/Desktop/CatFinder2/CatFinder2AppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/cscrew/Desktop/CatFinder2/CatFinder2AppDelegate.m404745919#404745919#0(0"0(0#0#56"/Users/cscrew/Desktop/CatFinder2/CatFinder2AppDelegate.m4317974528#1474"    cd /Users/cscrew/Desktop/CatFinder2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/CatFinder2-generated-files.hmap -I/Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/CatFinder2-own-target-headers.hmap -I/Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/CatFinder2-all-target-headers.hmap -iquote /Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/CatFinder2-project-headers.hmap -F/Users/cscrew/Desktop/CatFinder2/build/Debug -I/Users/cscrew/Desktop/CatFinder2/build/Debug/include -I/Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/DerivedSources/x86_64 -I/Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/DerivedSources -include /var/folders/5p/6dsmhpvx1z1gdtgnf1zxrb0h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CatFinder2_Prefix-eecthixofenztdcbsvyhdzinlgqf/CatFinder2_Prefix.pch -c /Users/cscrew/Desktop/CatFinder2/CatFinder2AppDelegate.m -o /Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/Objects-normal/x86_64/CatFinder2AppDelegate.o0#
+
+CCompileC build/CatFinder2.build/Debug/CatFinder2.build/Objects-normal/x86_64/main.o /Users/cscrew/Desktop/CatFinder2/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s404745919.389491
+e404745919.601985
+r1
+xCompileC
+xbuild/CatFinder2.build/Debug/CatFinder2.build/Objects-normal/x86_64/main.o
+x/Users/cscrew/Desktop/CatFinder2/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/cscrew/Desktop/CatFinder2/main.m404745919#404745919#0(0"0(0#0#39"/Users/cscrew/Desktop/CatFinder2/main.m4317974528#1440"    cd /Users/cscrew/Desktop/CatFinder2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/CatFinder2-generated-files.hmap -I/Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/CatFinder2-own-target-headers.hmap -I/Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/CatFinder2-all-target-headers.hmap -iquote /Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/CatFinder2-project-headers.hmap -F/Users/cscrew/Desktop/CatFinder2/build/Debug -I/Users/cscrew/Desktop/CatFinder2/build/Debug/include -I/Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/DerivedSources/x86_64 -I/Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/DerivedSources -include /var/folders/5p/6dsmhpvx1z1gdtgnf1zxrb0h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CatFinder2_Prefix-eecthixofenztdcbsvyhdzinlgqf/CatFinder2_Prefix.pch -c /Users/cscrew/Desktop/CatFinder2/main.m -o /Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/cscrew/Desktop/CatFinder2/English.lproj/MainMenu.xib
+s404745916.747142
+e404745917.021759
+r1
+xCompileXIB
+x/Users/cscrew/Desktop/CatFinder2/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib404745916#404745917#0(0"0(0#0#59"/Users/cscrew/Desktop/CatFinder2/English.lproj/MainMenu.xib4317974528#349"    cd /Users/cscrew/Desktop/CatFinder2    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app/Contents/Resources/English.lproj/MainMenu.nib /Users/cscrew/Desktop/CatFinder2/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/cscrew/Desktop/CatFinder2/storyboard.xib
+r0
+
+CCopyStringsFile /Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s404745916.735431
+e404745916.970296
+r1
+xCopyStringsFile
+x/Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings404745916#404745916#0(0"0(0#0#64"/Users/cscrew/Desktop/CatFinder2/English.lproj/InfoPlist.strings4317974528#356"    cd /Users/cscrew/Desktop/CatFinder2    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app/Contents/Resources/English.lproj0#
+
+CLd /Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app/Contents/MacOS/CatFinder2 normal x86_64
+s404745919.614770
+e404745920.068533
+r1
+xLd
+x/Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app/Contents/MacOS/CatFinder2
+xnormal
+xx86_64
+lSLF07#2@90"Link /Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app/Contents/MacOS/CatFinder2404745919#404745920#0(0"0(0#0#0"4317974528#527"    cd /Users/cscrew/Desktop/CatFinder2    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/cscrew/Desktop/CatFinder2/build/Debug -F/Users/cscrew/Desktop/CatFinder2/build/Debug -filelist /Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/Objects-normal/x86_64/CatFinder2.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app/Contents/MacOS/CatFinder20#
+
+CProcessInfoPlistFile /Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app/Contents/Info.plist CatFinder2-Info.plist
+s404745916.716086
+e404745916.735353
+r1
+xProcessInfoPlistFile
+x/Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app/Contents/Info.plist
+xCatFinder2-Info.plist
+lSLF07#2@29"Process CatFinder2-Info.plist404745916#404745916#0(0"0(0#0#54"/Users/cscrew/Desktop/CatFinder2/CatFinder2-Info.plist17235211008#301"    cd /Users/cscrew/Desktop/CatFinder2    builtin-infoPlistUtility CatFinder2-Info.plist -genpkginfo /Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/5p/6dsmhpvx1z1gdtgnf1zxrb0h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CatFinder2_Prefix-eecthixofenztdcbsvyhdzinlgqf/CatFinder2_Prefix.pch.gch CatFinder2_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s404745917.021890
+e404745919.389340
+r1
+xProcessPCH
+x/var/folders/5p/6dsmhpvx1z1gdtgnf1zxrb0h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CatFinder2_Prefix-eecthixofenztdcbsvyhdzinlgqf/CatFinder2_Prefix.pch.gch
+xCatFinder2_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile CatFinder2_Prefix.pch404745917#404745919#0(0"0(0#0#54"/Users/cscrew/Desktop/CatFinder2/CatFinder2_Prefix.pch4317974528#1349"    cd /Users/cscrew/Desktop/CatFinder2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/CatFinder2-generated-files.hmap -I/Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/CatFinder2-own-target-headers.hmap -I/Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/CatFinder2-all-target-headers.hmap -iquote /Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/CatFinder2-project-headers.hmap -F/Users/cscrew/Desktop/CatFinder2/build/Debug -I/Users/cscrew/Desktop/CatFinder2/build/Debug/include -I/Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/DerivedSources/x86_64 -I/Users/cscrew/Desktop/CatFinder2/build/CatFinder2.build/Debug/CatFinder2.build/DerivedSources -c /Users/cscrew/Desktop/CatFinder2/CatFinder2_Prefix.pch -o /var/folders/5p/6dsmhpvx1z1gdtgnf1zxrb0h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CatFinder2_Prefix-eecthixofenztdcbsvyhdzinlgqf/CatFinder2_Prefix.pch.gch0#
+
+CTouch /Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app
+s404745920.068702
+e404745920.094480
+r1
+xTouch
+x/Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app
+lSLF07#2@65"Touch /Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app404745920#404745920#0(0"0(0#0#0"4317974528#122"    cd /Users/cscrew/Desktop/CatFinder2    /usr/bin/touch -c /Users/cscrew/Desktop/CatFinder2/build/Debug/CatFinder2.app0#
+
