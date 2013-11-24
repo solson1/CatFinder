@@ -33,6 +33,9 @@
 		318738D818417E4600DCBF9D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318738D718417E4600DCBF9D /* SystemConfiguration.framework */; };
 		318738DB18418B9700DCBF9D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 318738DA18418B9700DCBF9D /* LoginViewController.m */; };
 		318738DE1841A33C00DCBF9D /* EditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 318738DD1841A33C00DCBF9D /* EditProfileViewController.m */; };
+		318738E11841CCAD00DCBF9D /* CatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 318738E01841CCAD00DCBF9D /* CatCell.m */; };
+		318738E71841D38E00DCBF9D /* CatFoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 318738E61841D38E00DCBF9D /* CatFoundViewController.m */; };
+		318738EA1841ED2900DCBF9D /* CatSubmitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 318738E91841ED2900DCBF9D /* CatSubmitViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +82,12 @@
 		318738DA18418B9700DCBF9D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		318738DC1841A33C00DCBF9D /* EditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileViewController.h; sourceTree = "<group>"; };
 		318738DD1841A33C00DCBF9D /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileViewController.m; sourceTree = "<group>"; };
+		318738DF1841CCAD00DCBF9D /* CatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatCell.h; sourceTree = "<group>"; };
+		318738E01841CCAD00DCBF9D /* CatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatCell.m; sourceTree = "<group>"; };
+		318738E51841D38E00DCBF9D /* CatFoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatFoundViewController.h; sourceTree = "<group>"; };
+		318738E61841D38E00DCBF9D /* CatFoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatFoundViewController.m; sourceTree = "<group>"; };
+		318738E81841ED2900DCBF9D /* CatSubmitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatSubmitViewController.h; sourceTree = "<group>"; };
+		318738E91841ED2900DCBF9D /* CatSubmitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatSubmitViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +170,12 @@
 				3187389F18417B5E00DCBF9D /* AppDelegate.h */,
 				318738A018417B5E00DCBF9D /* AppDelegate.m */,
 				318738A218417B5E00DCBF9D /* Main.storyboard */,
+				318738E51841D38E00DCBF9D /* CatFoundViewController.h */,
+				318738E81841ED2900DCBF9D /* CatSubmitViewController.h */,
+				318738E91841ED2900DCBF9D /* CatSubmitViewController.m */,
+				318738E61841D38E00DCBF9D /* CatFoundViewController.m */,
+				318738DF1841CCAD00DCBF9D /* CatCell.h */,
+				318738E01841CCAD00DCBF9D /* CatCell.m */,
 				318738DC1841A33C00DCBF9D /* EditProfileViewController.h */,
 				318738DD1841A33C00DCBF9D /* EditProfileViewController.m */,
 				318738D918418B9700DCBF9D /* LoginViewController.h */,
@@ -299,11 +314,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				318738E71841D38E00DCBF9D /* CatFoundViewController.m in Sources */,
 				318738DB18418B9700DCBF9D /* LoginViewController.m in Sources */,
 				318738A718417B5E00DCBF9D /* ViewController.m in Sources */,
+				318738E11841CCAD00DCBF9D /* CatCell.m in Sources */,
 				318738DE1841A33C00DCBF9D /* EditProfileViewController.m in Sources */,
 				318738A118417B5E00DCBF9D /* AppDelegate.m in Sources */,
 				3187389D18417B5E00DCBF9D /* main.m in Sources */,
+				318738EA1841ED2900DCBF9D /* CatSubmitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
