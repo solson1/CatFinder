@@ -188,10 +188,10 @@
             </objects>
             <point key="canvasLocation" x="1151" y="-315"/>
         </scene>
-        <!--View Controller-->
+        <!--Cat Submit View Controller-->
         <scene sceneID="Yvh-Tn-dwT">
             <objects>
-                <viewController id="BAn-9b-6bT" sceneMemberID="viewController">
+                <viewController id="BAn-9b-6bT" customClass="CatSubmitViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EED-gE-tt6"/>
                         <viewControllerLayoutGuide type="bottom" id="93N-21-zpn"/>
@@ -223,7 +223,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="KN4-3c-Aay" kind="modal" id="yTN-Z4-OsA"/>
+                                    <segue destination="KN4-3c-Aay" kind="modal" id="ezs-iu-8ty"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4LN-oN-En4">
@@ -233,21 +233,40 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="KN4-3c-Aay" kind="modal" id="Hn9-Op-rIc"/>
+                                    <action selector="catSubmitButton:" destination="BAn-9b-6bT" eventType="touchUpInside" id="i8d-Fw-ZHF"/>
+                                    <segue destination="KN4-3c-Aay" kind="modal" id="2RA-Xl-2hI"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Where did you see the cat?" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rhh-cM-w4V">
+                                <rect key="frame" x="20" y="246" width="286" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="ReturnKeyButton:" destination="BAn-9b-6bT" eventType="editingDidEndOnExit" id="kA0-Rg-Qew"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oo3-6A-lo5">
+                                <rect key="frame" x="131" y="200" width="60" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="catLocationField" destination="rhh-cM-w4V" id="vIg-mO-7HX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MA5-ez-4lW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1512" y="-320"/>
         </scene>
-        <!--View Controller-->
+        <!--Cat Found View Controller-->
         <scene sceneID="XD0-mw-Zgt">
             <objects>
-                <viewController id="KN4-3c-Aay" sceneMemberID="viewController">
+                <viewController id="KN4-3c-Aay" customClass="CatFoundViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZVE-c6-huf"/>
                         <viewControllerLayoutGuide type="bottom" id="7z6-k3-eRX"/>
@@ -282,9 +301,42 @@
                                     <segue destination="SPQ-d4-QA8" kind="modal" id="Plg-k5-CMR"/>
                                 </connections>
                             </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="y3R-nm-LCz">
+                                <rect key="frame" x="20" y="95" width="280" height="447"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="catListCell" id="9n9-6M-wxf" customClass="CatCell">
+                                        <rect key="frame" x="0.0" y="22" width="280" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9n9-6M-wxf" id="AG1-aH-UEV">
+                                            <rect key="frame" x="0.0" y="0.0" width="280" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cat Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ci-95-8IR">
+                                                    <rect key="frame" x="20" y="11" width="255" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="catLocation" destination="3ci-95-8IR" id="T8Y-vj-8C7"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="KN4-3c-Aay" id="mjT-iI-3mh"/>
+                                    <outlet property="delegate" destination="KN4-3c-Aay" id="Aoo-t5-hcn"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="catsTable" destination="y3R-nm-LCz" id="OzW-ad-oJl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="azR-iM-F9H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -335,8 +387,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="yTN-Z4-OsA"/>
+        <segue reference="ezs-iu-8ty"/>
         <segue reference="g0r-iF-89K"/>
-        <segue reference="Plg-k5-CMR"/>
+        <segue reference="RfT-2V-8YY"/>
     </inferredMetricsTieBreakers>
 </document>
