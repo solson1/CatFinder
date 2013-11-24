@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5E18C5F0-4A55-43AD-A634-647D2C7F017E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Cat Finder</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CE03B9C9-C17E-48C3-8AEC-F7A2B1D2D0EB</key>
+		<string>https://github.com/iknitformydog/CatFinder.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Cat Finder/Cat Finder.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CE03B9C9-C17E-48C3-8AEC-F7A2B1D2D0EB</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/iknitformydog/CatFinder.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CE03B9C9-C17E-48C3-8AEC-F7A2B1D2D0EB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CE03B9C9-C17E-48C3-8AEC-F7A2B1D2D0EB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CatFinder</string>
+		</dict>
+	</array>
+</dict>
+</plist>
