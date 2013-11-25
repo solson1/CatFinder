@@ -84,10 +84,17 @@
 - (void) registerNewUser {
     PFUser *newUser = [PFUser user];
     newUser.username = _usernameField.text;
-    /*newUser.firstName = _firstNameField.text;
-    newUser.lastName = _lastNameField.text;*/
     newUser.email = _emailField.text;
     newUser.password = _passwordField.text;
+    
+    //first and last name into UserProfile class
+    PFObject *userProfileObject = [PFObject objectWithClassName:@"UserProfile"];
+    [userProfileObject setObject:_firstNameField.text forKey:@"firstName"];
+    [userProfileObject setObject:_lastNameField.text forKey:@"lastName"];
+    [userProfileObject save];
+    
+    
+    
     
     [newUser signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         
@@ -98,9 +105,16 @@
             _usernameField.text = nil;
             _firstNameField.text = nil;
             _lastNameField.text = nil;
+            _emailField.text = nil;
             _passwordField.text = nil;
             _reEnterPasswordField.text = nil;
             [self performSegueWithIdentifier:@"login" sender:self];
+            
+            
+            //connect first and last name to userId
+            [userProfileObject addUniqueObject:[PFUser currentUser].objectId forKey:@"userId"];
+            [userProfileObject save];
+            
         }
         else {
             NSLog(@"There was an error in registration");
