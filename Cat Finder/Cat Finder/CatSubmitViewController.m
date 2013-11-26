@@ -29,6 +29,7 @@
     
 }
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -47,6 +48,8 @@
     PFObject *catLocationObject = [PFObject objectWithClassName:@"CatLocation"];
     [catLocationObject setObject:_catLocationField.text forKey:@"Location"];
     [catLocationObject save];
+      
+     
     
 }
 @end
