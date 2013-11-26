@@ -35,6 +35,7 @@
 	// Do any additional setup after loading the view.
     
     
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated{
@@ -86,12 +87,15 @@
     newUser.username = _usernameField.text;
     newUser.email = _emailField.text;
     newUser.password = _passwordField.text;
+    [newUser setObject:_firstNameField.text forKey:@"firstName"];
+    [newUser setObject:_lastNameField.text forKey:@"lastName"];
+    
     
     //first and last name into UserProfile class
-    PFObject *userProfileObject = [PFObject objectWithClassName:@"UserProfile"];
+   /* PFObject *userProfileObject = [PFObject objectWithClassName:@"UserProfile"];
     [userProfileObject setObject:_firstNameField.text forKey:@"firstName"];
     [userProfileObject setObject:_lastNameField.text forKey:@"lastName"];
-    [userProfileObject save];
+    [userProfileObject save];*/
     
     
     
@@ -112,8 +116,8 @@
             
             
             //connect first and last name to userId
-            [userProfileObject addUniqueObject:[PFUser currentUser].objectId forKey:@"userId"];
-            [userProfileObject save];
+            //[userProfileObject addUniqueObject:[PFUser currentUser].objectId forKey:@"userId"];
+           // [userProfileObject save];
             
         }
         else {
