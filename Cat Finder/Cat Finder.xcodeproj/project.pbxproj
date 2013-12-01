@@ -21,7 +21,6 @@
 		318738B218417B5E00DCBF9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3187389418417B5E00DCBF9D /* UIKit.framework */; };
 		318738BA18417B5E00DCBF9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 318738B818417B5E00DCBF9D /* InfoPlist.strings */; };
 		318738BC18417B5E00DCBF9D /* Cat_FinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 318738BB18417B5E00DCBF9D /* Cat_FinderTests.m */; };
-		318738C618417D5400DCBF9D /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318738C518417D5400DCBF9D /* Parse.framework */; };
 		318738C818417DBA00DCBF9D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318738C718417DBA00DCBF9D /* AudioToolbox.framework */; };
 		318738CA18417DC700DCBF9D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318738C918417DC700DCBF9D /* CFNetwork.framework */; };
 		318738CC18417DDE00DCBF9D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318738CB18417DDE00DCBF9D /* CoreLocation.framework */; };
@@ -36,6 +35,7 @@
 		318738E11841CCAD00DCBF9D /* CatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 318738E01841CCAD00DCBF9D /* CatCell.m */; };
 		318738E71841D38E00DCBF9D /* CatFoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 318738E61841D38E00DCBF9D /* CatFoundViewController.m */; };
 		318738EA1841ED2900DCBF9D /* CatSubmitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 318738E91841ED2900DCBF9D /* CatSubmitViewController.m */; };
+		EF3D728D184B967E00F0DE62 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3D728C184B967E00F0DE62 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +68,6 @@
 		318738B718417B5E00DCBF9D /* Cat FinderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cat FinderTests-Info.plist"; sourceTree = "<group>"; };
 		318738B918417B5E00DCBF9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		318738BB18417B5E00DCBF9D /* Cat_FinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat_FinderTests.m; sourceTree = "<group>"; };
-		318738C518417D5400DCBF9D /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		318738C718417DBA00DCBF9D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		318738C918417DC700DCBF9D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		318738CB18417DDE00DCBF9D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -88,6 +87,7 @@
 		318738E61841D38E00DCBF9D /* CatFoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatFoundViewController.m; sourceTree = "<group>"; };
 		318738E81841ED2900DCBF9D /* CatSubmitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatSubmitViewController.h; sourceTree = "<group>"; };
 		318738E91841ED2900DCBF9D /* CatSubmitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatSubmitViewController.m; sourceTree = "<group>"; };
+		EF3D728C184B967E00F0DE62 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +101,12 @@
 				318738D218417E2A00DCBF9D /* QuartzCore.framework in Frameworks */,
 				318738D018417E2000DCBF9D /* MobileCoreServices.framework in Frameworks */,
 				318738CE18417E1400DCBF9D /* libz.1.1.3.dylib in Frameworks */,
+				EF3D728D184B967E00F0DE62 /* Parse.framework in Frameworks */,
 				318738CC18417DDE00DCBF9D /* CoreLocation.framework in Frameworks */,
 				3187389318417B5E00DCBF9D /* CoreGraphics.framework in Frameworks */,
 				318738CA18417DC700DCBF9D /* CFNetwork.framework in Frameworks */,
 				318738C818417DBA00DCBF9D /* AudioToolbox.framework in Frameworks */,
 				3187389518417B5E00DCBF9D /* UIKit.framework in Frameworks */,
-				318738C618417D5400DCBF9D /* Parse.framework in Frameworks */,
 				3187389118417B5E00DCBF9D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +146,7 @@
 		3187388F18417B5E00DCBF9D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EF3D728C184B967E00F0DE62 /* Parse.framework */,
 				318738D718417E4600DCBF9D /* SystemConfiguration.framework */,
 				318738D518417E3D00DCBF9D /* StoreKit.framework */,
 				318738D318417E3200DCBF9D /* Security.framework */,
@@ -155,7 +156,6 @@
 				318738CB18417DDE00DCBF9D /* CoreLocation.framework */,
 				318738C918417DC700DCBF9D /* CFNetwork.framework */,
 				318738C718417DBA00DCBF9D /* AudioToolbox.framework */,
-				318738C518417D5400DCBF9D /* Parse.framework */,
 				3187389018417B5E00DCBF9D /* Foundation.framework */,
 				3187389218417B5E00DCBF9D /* CoreGraphics.framework */,
 				3187389418417B5E00DCBF9D /* UIKit.framework */,
@@ -451,6 +451,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/jasonsheehan/Desktop/CatFinder/Cat\\ Finder",
+					"/Users/everyoneelse/Desktop/findercat/CatFinder/Cat\\ Finder",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cat Finder/Cat Finder-Prefix.pch";
@@ -468,6 +469,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/jasonsheehan/Desktop/CatFinder/Cat\\ Finder",
+					"/Users/everyoneelse/Desktop/findercat/CatFinder/Cat\\ Finder",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cat Finder/Cat Finder-Prefix.pch";
@@ -538,6 +540,7 @@
 				318738C118417B5E00DCBF9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		318738C218417B5E00DCBF9D /* Build configuration list for PBXNativeTarget "Cat FinderTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +549,7 @@
 				318738C418417B5E00DCBF9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

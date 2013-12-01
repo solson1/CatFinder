@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>5E18C5F0-4A55-43AD-A634-647D2C7F017E</string>
+	<string>A2A1146D-401B-4E17-861B-DB0A98193B0B</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Cat Finder</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>CE03B9C9-C17E-48C3-8AEC-F7A2B1D2D0EB</key>
-		<string>https://github.com/iknitformydog/CatFinder.git</string>
+		<key>F031DA30-B62D-419C-B52D-3997A3A69530</key>
+		<string>https://github.com/solson1/CatFinder</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Cat Finder/Cat Finder.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>CE03B9C9-C17E-48C3-8AEC-F7A2B1D2D0EB</key>
+		<key>F031DA30-B62D-419C-B52D-3997A3A69530</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/iknitformydog/CatFinder.git</string>
+	<string>https://github.com/solson1/CatFinder</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>CE03B9C9-C17E-48C3-8AEC-F7A2B1D2D0EB</string>
+	<string>F031DA30-B62D-419C-B52D-3997A3A69530</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>CE03B9C9-C17E-48C3-8AEC-F7A2B1D2D0EB</string>
+			<string>F031DA30-B62D-419C-B52D-3997A3A69530</string>
 			<key>IDESourceControlWCCName</key>
 			<string>CatFinder</string>
 		</dict>

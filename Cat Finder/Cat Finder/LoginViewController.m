@@ -57,6 +57,8 @@
     [_lastNameField resignFirstResponder];
     [_emailField resignFirstResponder];
     [_passwordField resignFirstResponder];
+    [_ageField resignFirstResponder];
+    [_genderField resignFirstResponder];
     [_reEnterPasswordField resignFirstResponder];
     [self checkFieldComplete];
 }
@@ -90,7 +92,8 @@
     [newUser setObject:_firstNameField.text forKey:@"firstName"];
     [newUser setObject:_lastNameField.text forKey:@"lastName"];
     
-    
+    [newUser setObject:_ageField.text forKey:@"ageString"];
+    [newUser setObject:_genderField.text forKey:@"gender"];
     //first and last name into UserProfile class
    /* PFObject *userProfileObject = [PFObject objectWithClassName:@"UserProfile"];
     [userProfileObject setObject:_firstNameField.text forKey:@"firstName"];
@@ -112,6 +115,8 @@
             _emailField.text = nil;
             _passwordField.text = nil;
             _reEnterPasswordField.text = nil;
+            _ageField.text = nil;
+            _genderField.text = nil;
             [self performSegueWithIdentifier:@"login" sender:self];
             
             

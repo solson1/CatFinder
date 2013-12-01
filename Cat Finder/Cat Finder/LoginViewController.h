@@ -17,6 +17,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *passwordField;
 @property (weak, nonatomic) IBOutlet UITextField *reEnterPasswordField;
 @property (weak, nonatomic) IBOutlet UIView *loginOverlayView;
+@property (weak, nonatomic) IBOutlet UITextField *ageField;
+@property (weak, nonatomic) IBOutlet UITextField *genderField;
 
 
 - (IBAction)registerAction:(id)sender;
